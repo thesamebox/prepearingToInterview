@@ -1,14 +1,14 @@
 package ru.geekbrains.prepearingToInterview.lesson1;
 
 public class Person {
-    String firstName;
-    String lastName;
-    String middleName;
-    String country;
-    String address;
-    String phone;
-    int age;
-    String gender;
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String country;
+    private String address;
+    private String phone;
+    private int age;
+    private String gender;
 
     public Person(Builder builder) {
         this.firstName = builder.firstName;
